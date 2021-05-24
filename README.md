@@ -11,6 +11,10 @@ Matching computations are performed by the excellent [string_grouper](https://gi
 
 The GUI is written using [kivy](https://kivy.org).
 
+There are two ways to get this running:
+1. Make sure your Python environment meets the [requirements](https://github.com/probablyfine/matchapp#requirements), clone this repository, change directory to where you cloned it, and type `python main.py` (or `python3 main.py` depending on your system)
+2. If you're on Windows, download a [pre-built executable](https://github.com/probablyfine/matchapp#pre-built-executable). This is a fully-contained package that does not even require you to have Python installed.
+
 ## More details
 The matching process occurs in two steps. First, the user selects a primary key from each table to use for matching. The primary keys are used to sift through the universe of possible matches and return the top *n* matches for each record (*n* is configurable but defaults to 10). 
 <details>
@@ -57,8 +61,8 @@ There are also a bunch of configuration options you can play with before you sta
 
 ## Requirements
 This project has some dependencies:
-- Python3 (I'm using 3.7)
-- kivy (>= 2.0.0)
+- Python3 (I'm using 3.7.1)
+- kivy (>= 2.0.0. I recommend using the latest dev version on Windows)
 - pandas (and xlrd or openpyxl for Excel support)
 - string_grouper
 - unidecode
