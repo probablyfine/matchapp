@@ -1,5 +1,5 @@
-from ctypes import windll
 try:
+    from ctypes import windll
     windll.user32.SetProcessDpiAwarenessContext(-4)
 except:
     pass
