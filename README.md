@@ -74,4 +74,4 @@ If you don't want to set up a development environment, you can [download a pre-b
 TBD
 
 ## Contact
-Questions/comments/issues/suggestions can be sent to ssuway@gmail.com. I'm also on the job market, if you're hiring.
+Questions/comments/issues/suggestions can be sent to ssuway@gmail.com.
